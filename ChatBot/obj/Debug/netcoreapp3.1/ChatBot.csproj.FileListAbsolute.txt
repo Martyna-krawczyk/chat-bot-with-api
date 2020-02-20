@@ -1,0 +1,13 @@
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/obj/Debug/netcoreapp3.1/ChatBot.csprojAssemblyReference.cache
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/obj/Debug/netcoreapp3.1/ChatBot.AssemblyInfoInputs.cache
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/obj/Debug/netcoreapp3.1/ChatBot.AssemblyInfo.cs
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/bin/Debug/netcoreapp3.1/ChatBot
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/bin/Debug/netcoreapp3.1/ChatBot.deps.json
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/bin/Debug/netcoreapp3.1/ChatBot.runtimeconfig.json
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/bin/Debug/netcoreapp3.1/ChatBot.runtimeconfig.dev.json
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/bin/Debug/netcoreapp3.1/ChatBot.dll
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/bin/Debug/netcoreapp3.1/ChatBot.pdb
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/obj/Debug/netcoreapp3.1/ChatBot.csproj.CopyComplete
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/obj/Debug/netcoreapp3.1/ChatBot.dll
+/Users/martyna.krawczyk/Projects/ChatBot/ChatBot/obj/Debug/netcoreapp3.1/ChatBot.pdb
