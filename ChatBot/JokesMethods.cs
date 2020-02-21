@@ -11,24 +11,32 @@ namespace ChatBot
         {
             Any,
             Programming,
-            Dark,
             Miscellaneous
         }
         public static void RunJokesApp()
         {
+            Console.WriteLine("What joke category would you like?");
+
             string[] categoryArray = Enum.GetNames(typeof(Categories));
 
-            for (int i = 0; i < categoryArray.Length; i++)
-            {
-                Console.WriteLine($"Please type {i} for {categoryArray[i]}");
-            }
+                for (int i = 0; i < categoryArray.Length; i++)
+                {
+                    Console.WriteLine($"Please type {i} for {categoryArray[i]}");
+                }
+            
 
             string selection = Console.ReadKey(true).KeyChar.ToString();
             int intSelection = Convert.ToInt32(selection);
-            Console.WriteLine("You've selected " + ((Categories)intSelection).ToString());
 
+            string stringCategories = Convert.ToString(intSelection);
 
+            if (intSelection > 2) {
+                Console.WriteLine("Sorry, that is not a valid option.");
+                RunJokesApp();
+            }
+            Console.WriteLine("Just one moment whilst we load your joke!");
             ReturnAJoke(((Categories)intSelection).ToString());
+
 
 
             static void ReturnAJoke(string category)

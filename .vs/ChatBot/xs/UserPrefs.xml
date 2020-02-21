@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{0F4B6F18-B758-4A14-B054-531A773A930E}|Default">
   <MonoDevelop.Ide.ItemProperties.ChatBot PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChatBot/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChatBot/Game.cs">
     <Files>
-      <File FileName="ChatBot/Program.cs" Line="52" Column="18" />
-      <File FileName="ChatBot/Jokes.cs" Line="6" Column="2" />
-      <File FileName="ChatBot/JokesMethods.cs" Line="1" Column="1" />
+      <File FileName="ChatBot/Program.cs" Line="19" Column="69" />
+      <File FileName="ChatBot/Jokes.cs" Line="24" Column="1" />
+      <File FileName="ChatBot/JokesMethods.cs" Line="31" Column="70" />
+      <File FileName="ChatBot/Game.cs" Line="6" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ChatBot" expanded="True">
             <Node name="ChatBot" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Game.cs" selected="True" />
             </Node>
           </Node>
         </State>
