@@ -1,6 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json;
-using static ChatBot.Jokes;
+using static ChatBot.JokesMethods;
 
 namespace ChatBot
 {
@@ -8,20 +8,15 @@ namespace ChatBot
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi!");
+            //Console.WriteLine((Categories)1);
+
+            Console.WriteLine("Hi There!");
 
             Console.WriteLine("What joke category would you like?");
-            string category = Console.ReadLine();
-            ReturnAJoke(category);
 
-            static void ReturnAJoke(string category)
-            {
-                string wordJSON = WebAndJSON.AccessJokes(category);
+            RunJokesApp();
 
-                RootObject APIResults = JsonConvert.DeserializeObject<RootObject>(wordJSON);
-
-                Console.WriteLine(APIResults.joke);
-            }
+            
         }
     }
 }
